@@ -1,0 +1,59 @@
+{
+  "flag": "flag{git_h1story_n3v3r_f0rg3ts}",
+  "accounts": {
+    "target": {
+      "login": "dev-null-sec99",
+      "name": "Dev Null",
+      "bio": "Backend Engineer. Rust & Go. Cleaned up my old repos, moving to self-hosted GitLab.",
+      "publicRepos": 0,
+      "followers": 0
+    },
+    "decoyOwner": {
+      "login": "acme-internal-tools",
+      "name": "Acme Internal Tools",
+      "bio": "Small utilities extracted from a former platform team. Mostly unmaintained.",
+      "publicRepos": 1
+    }
+  },
+  "decoyRepo": {
+    "fullName": "acme-internal-tools/json-schema-validator-go",
+    "defaultBranch": "main",
+    "mainHeadSha": "2e2fc34c49b840e9fd6878d605fc2825cb36da46",
+    "ghostCommitSha": "dd99432ae9a11d570bd708800af89e162fdf205c",
+    "ghostBranch": "temp-staging-test",
+    "ghostRef": "refs/ghost/staging"
+  },
+  "eventsPublic": [
+    {
+      "type": "PushEvent",
+      "actor": { "login": "dev-null-sec99" },
+      "repo": { "name": "acme-internal-tools/json-schema-validator-go" },
+      "payload": {
+        "ref": "refs/heads/temp-staging-test",
+        "before": "0000000000000000000000000000000000000000",
+        "head": "dd99432ae9a11d570bd708800af89e162fdf205c",
+        "commits": [
+          {
+            "sha": "dd99432ae9a11d570bd708800af89e162fdf205c",
+            "message": "test staging creds before scrubbing",
+            "author": {
+              "name": "dev-null-sec99",
+              "email": "staging-admin@internal-dev-null.local"
+            }
+          }
+        ]
+      },
+      "created_at": "2024-05-03T02:18:04Z"
+    },
+    {
+      "type": "DeleteEvent",
+      "actor": { "login": "dev-null-sec99" },
+      "repo": { "name": "acme-internal-tools/json-schema-validator-go" },
+      "payload": {
+        "ref": "refs/heads/temp-staging-test",
+        "ref_type": "branch"
+      },
+      "created_at": "2024-05-03T02:21:11Z"
+    }
+  ]
+}

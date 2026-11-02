@@ -1,0 +1,34 @@
+{
+  "action": "opened",
+  "number": 1,
+  "pull_request": {
+    "id": 900001,
+    "number": 1,
+    "state": "open",
+    "title": "docs: clarify schema examples",
+    "user": { "login": "dev-null-sec99", "id": 42424242 },
+    "body": "Minor README tweak while auditing history.",
+    "head": {
+      "ref": "patch-1",
+      "sha": "0000000000000000000000000000000000000000",
+      "repo": {
+        "id": 800001,
+        "name": "json-schema-validator-go",
+        "full_name": "acme-internal-tools/json-schema-validator-go"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "repo": {
+        "full_name": "acme-internal-tools/json-schema-validator-go"
+      }
+    }
+  },
+  "repository": {
+    "id": 800001,
+    "name": "json-schema-validator-go",
+    "full_name": "acme-internal-tools/json-schema-validator-go",
+    "owner": { "login": "acme-internal-tools" }
+  },
+  "sender": { "login": "dev-null-sec99" }
+}

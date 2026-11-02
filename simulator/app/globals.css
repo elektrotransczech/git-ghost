@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --gh-bg: #0d1117;
+  --gh-canvas: #010409;
+  --gh-border: #30363d;
+  --gh-muted: #8b949e;
+  --gh-text: #e6edf3;
+  --gh-accent: #2f81f7;
+  --gh-green: #3fb950;
+}
+
+body {
+  background: var(--gh-bg);
+  color: var(--gh-text);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: var(--gh-accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
