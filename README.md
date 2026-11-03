@@ -54,4 +54,4 @@ curl -s "https://api.github.com/users/dev-null-sec99/events/public" | head
 
 ## Flag
 
-Default: `flag{git_h1story_n3v3r_f0rg3ts}` (override with `CTF_FLAG` when running scripts).
+Default: `flag{oH_Y0u_G0T_N0ting}` (override with `CTF_FLAG` when running scripts).
